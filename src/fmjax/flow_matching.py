@@ -53,7 +53,7 @@ class ContextEncoder1D(nn.Module):
 
 class ConditionalVectorFieldNetwork(nn.Module):
     hidden_dim: int = 512
-    out_dim: int = 8  # (T_phot, T_spot, T_fac, f1, f2, f3, R_s, ln_f_var)
+    out_dim: int = 8  
     context_emb_dim: int = 256
 
     @nn.compact
