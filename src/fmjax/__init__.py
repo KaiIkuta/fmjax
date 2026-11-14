@@ -1,4 +1,4 @@
-from .flow_matching import (
+from .fmpe import (
     AdaLNResNetBlock,
     ContextEncoder1D,
     ConditionalVectorFieldNetwork,
